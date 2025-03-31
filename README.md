@@ -1,2 +1,2 @@
 # CarDate
-Mobile app built with React Native, for sales or Rentage of vehicle(Gasoline and ELectric)
+A Mobile app(IOS & ANDRIOD) built with React Native, for sales or Rentage of vehicle(Gasoline and ELectric)

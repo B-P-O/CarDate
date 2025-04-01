@@ -2,7 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { Redirect, Tabs } from "expo-router";
 import { Image, Text, View } from "react-native";
 
-import { icons } from "../../constants";
+import { icons, images } from "../../constants";
+
 // import { useGlobalContext } from "../../context/GlobalProvider";
 
 const TabIcon = ({ icon, iconColor, name, focused }) => {
@@ -67,7 +68,8 @@ const TabLayout = () => {
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
               <TabIcon
-                icon={icons.carIcon}
+         icon={images.AppLogo}
+                iconColor={color}
                 iconColor={color}
                 name="Cars"
                 focused={focused}
